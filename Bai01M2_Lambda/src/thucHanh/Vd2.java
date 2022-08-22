@@ -1,19 +1,22 @@
 package thucHanh;
 
-interface ChaoHoi {
-	void chao();
-}
+import java.util.ArrayList;
+import java.util.List;
 
 public class Vd2 {
 	public static void main(String[] args) {
-		ChaoHoi ch = () -> System.out.println("Chào mừng các bạn đến với lập trình Lambda");
-		ch.chao();
+		List<String> ds = new ArrayList<>();
+		ds.add("mai");
+		ds.add("lan");
+		ds.add("cuc");
+		ds.add("truc");
 
-		ChaoHoi ch2 = () -> {
-			String s = "Chào mừng các bạn đến Lập trình Java Module 2";
-			s = s.toUpperCase();
+		System.out.println("Xuat List ds ra man hinh");
+		for (String s : ds) {
 			System.out.println(s);
-		};
-		ch2.chao();
+		}
+
+		System.out.println("Xuat ra man hinh dung forEach");
+		ds.forEach(s -> System.out.println(s));
 	}
 }

@@ -45,5 +45,23 @@ public class Vd1 {
 //		System.out.println("Hieu = " + hieu);
 
 	}
+	
+	
+	interface ChaoHoi {
+		void chao();
+	}
 
+	public class Vd2 {
+		public static void main2(String[] args) {
+			ChaoHoi ch = () -> System.out.println("Chào mừng các bạn đến với lập trình Lambda");
+			ch.chao();
+
+			ChaoHoi ch2 = () -> {
+				String s = "Chào mừng các bạn đến Lập trình Java Module 2";
+				s = s.toUpperCase();
+				System.out.println(s);
+			};
+			ch2.chao();
+		}
+	}
 }
