@@ -52,7 +52,7 @@ public class Vd1 {
 	}
 
 	public class Vd2 {
-		public static void main2(String[] args) {
+		public void main2(String[] args) {
 			ChaoHoi ch = () -> System.out.println("Chào mừng các bạn đến với lập trình Lambda");
 			ch.chao();
 
