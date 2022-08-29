@@ -1,6 +1,8 @@
 package baiTap;
 
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -38,8 +40,8 @@ public class Bai1_5 {
 
 		});
 		ds.forEach(s -> System.out.println(s));
-//cach 3: dung lamba de viet code cho giao tiep Comparator co 1 phuong thuc)
-		System.out.println("\nSap xep chieu dai chuoi tang dan (cung ham sort cua Lis va lambda)");
+		// cach 3: dung lamba de viet code cho giao tiep Comparator co 1 phuong thuc)
+		System.out.println("\nSap xep chieu dai chuoi tang dan (cung ham sort cua List va lambda)");
 		ds.sort((s1, s2) -> {
 			if (s1.length() < s2.length())
 				return -1;
@@ -49,7 +51,10 @@ public class Bai1_5 {
 				return 1;
 		});
 		ds.forEach(s -> System.out.println(s));
-
+		
+		System.out.println("\n Sap xep chuoi theo thu tu Alpabet");
+		Collections.sort(ds);
+		ds.forEach(s -> System.out.println(s));
 	}
 
 }
