@@ -31,6 +31,7 @@ public class BaiTap2_3 {
 		list.add(student10);
 		System.out.println("danh sách Student:");
 		list.forEach(x -> System.out.println(x.toString()));
+		
 		System.out.println("danh sach bat dau bang chu H");
 		list.stream().filter(x -> x.firstName.startsWith("H")).forEach(x -> System.out.println(x.toString()));
 		DoubleSummaryStatistics staticStudent = list.stream().mapToDouble((x) -> (double) x.diemTB())

@@ -1,0 +1,10 @@
+{
+	"name": "Nguyễn Thanh Thanh",
+	"address": "127E Nguyễn Chí Thanh, P.9, Q.5",
+	"age": 25,
+	"courses": [
+		"LT Java",
+		"LT Python",
+		"LT Android"
+	]
+}
