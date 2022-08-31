@@ -1,0 +1,51 @@
+{
+	"CONG_TY": [
+		{
+			"Dia_chi": "11223 Trần hưng Đạo Q.1 TP HCM ",
+			"Dien_thoai": "08-83222145",
+			"ID": 1,
+			"Mail": "hhsom2016@gmail.com",
+			"Muc_Luong_Toi_thieu": 3500000,
+			"Ten": "Công ty Dịch vụ Hoàng hôn Sớm",
+			"Tuoi_Toi_da": 50,
+			"Tuoi_Toi_thieu": 20
+		}
+	],
+	"DON_VI": [
+		{
+			"ID": 1,
+			"ID_CHI_NHANH": 1,
+			"So_Nhan_vien": "14",
+			"Ten": "Đơn vị A1",
+			"Ty_le": "14.58"
+		},
+		{
+			"ID": 2,
+			"ID_CHI_NHANH": 1,
+			"So_Nhan_vien": "15",
+			"Ten": "Đơn vị A2",
+			"Ty_le": "14.58"
+		},
+		{
+			"ID": 3,
+			"ID_CHI_NHANH": 1,
+			"So_Nhan_vien": "14",
+			"Ten": "Đơn vị B1",
+			"Ty_le": "15.62"
+		},
+		{
+			"ID": 4,
+			"ID_CHI_NHANH": 1,
+			"So_Nhan_vien": "20",
+			"Ten": "Đơn vị B2",
+			"Ty_le": "14.58"
+		},{"ID":1,"ID_CHI_NHANH":1,"So_Nhan_vien":"19","Ten":"Đơn vị B3","Ty_le":"14.58"},
+		{
+			"ID": 5,
+			"ID_CHI_NHANH": 1,
+			"So_Nhan_vien": "14",
+			"Ten": "Đơn vị B4",
+			"Ty_le": "15.62"
+		}
+	]
+}
