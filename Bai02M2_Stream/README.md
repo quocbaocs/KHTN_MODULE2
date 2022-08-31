@@ -22,4 +22,4 @@
 	peek dùng kiểm tra, gỡ lỗi, đang chạy đến phần tử nào
 	filter lọc, giới hạn yếu tố dựa trên một tiêu chí
 	Colector: biến đổi danh sách này sang danh sách khác	
-	Static  thong ke 
+	Static  thong ke
