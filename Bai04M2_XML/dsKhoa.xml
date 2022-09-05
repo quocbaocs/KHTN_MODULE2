@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dskhoa>
+	<khoa>
+		<makh>AV</makh>
+		<tenkh>Anh Van</tenkh>
+	</khoa>
+	<khoa>
+		<makh>TH</makh>
+		<tenkh>Tin Hoc</tenkh>
+	</khoa>
+	<khoa>
+		<makh>VL</makh>
+		<tenkh>Vat Ly</tenkh>
+	</khoa>
+
+
+</dskhoa>

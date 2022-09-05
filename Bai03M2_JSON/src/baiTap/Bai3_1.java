@@ -18,7 +18,7 @@ public class Bai3_1 {
 
 		
 		JSONObject jsObjTT = (JSONObject) jsArrTT.get(0);
-		JSONObject jsObjDV = (JSONObject) jsArr.get(0);
+		JSONObject jsObjDV = (JSONObject) jsArrDV.get(0);
 		System.out.println("Thông tin công ty");
 		System.out.println("Tên công ty: " + jsObjTT.get("Dia_chi"));
 		System.out.println("Địa chỉ: " +jsObjTT.get("Dia_chi"));
