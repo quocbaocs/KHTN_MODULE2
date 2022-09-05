@@ -1,17 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dskhoa>
-	<khoa>
-		<makh>AV</makh>
-		<tenkh>Anh Van</tenkh>
-	</khoa>
-	<khoa>
-		<makh>TH</makh>
-		<tenkh>Tin Hoc</tenkh>
-	</khoa>
-	<khoa>
-		<makh>VL</makh>
-		<tenkh>Vat Ly</tenkh>
-	</khoa>
-
-
-</dskhoa>
+<dskhoa><khoa><makh>AV</makh><tenkh>Anh van</tenkh></khoa><khoa><makh>TH</makh><tenkh>Tin hoc</tenkh></khoa><khoa><makh>VL</makh><tenkh>Vat ly</tenkh></khoa></dskhoa>
