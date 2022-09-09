@@ -23,14 +23,14 @@
 	- Bước 3: Tạo kết nối
 	- Bước 4: Tạo phát biểu
 	- Bước 5: Thực hiện câu truy vấn
-	
-	
-	
-	
-	
-	- Bước 5:
 		- Nếu câu truy vấn là SELECT thì dùng executeQuery();
 		- Nếu câu truy vấn là Update, inser \t, delete là executeUpdate();
 	Bước 6: 
 		- Tùy theo kiểu dữ liệu của field ta gọi phương thức tương ứng
-	Bước 7: Đóng kết nối cơ sở dữ liệu 
+	Bước 7: Đóng kết nối cơ sở dữ liệu
+	
+## Bài tập 1: password sử dụng passwordField
+	- new String(txtPassword.getPassword);
+	- Field không phải là số thì đóng bằng dấu nháy đơn
+	String sql = "select * from user where username='"+userName+"' and password='"+password+"'";
+	
