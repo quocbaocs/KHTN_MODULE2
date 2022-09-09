@@ -34,3 +34,6 @@
 	- Field không phải là số thì đóng bằng dấu nháy đơn
 	String sql = "select * from user where username='"+userName+"' and password='"+password+"'";
 	
+	-Use Statement , tạo ra một chuỗi dài
+	-User prepareStatement , sử dụng ? thêm tham số vào
+	
