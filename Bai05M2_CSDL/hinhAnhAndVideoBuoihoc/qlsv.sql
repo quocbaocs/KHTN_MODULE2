@@ -26,7 +26,11 @@ CREATE TABLE IF NOT EXISTS `khoa` (
   PRIMARY KEY (`makh`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
 
--- Data exporting was unselected.
+-- Dumping data for table qlsv.khoa: ~0 rows (approximately)
+INSERT INTO `khoa` (`makh`, `tenkh`) VALUES
+	('AV', 'Anh Van'),
+	('TH', 'Tin Học'),
+	('VL', 'Vật Lý');
 
 -- Dumping structure for table qlsv.sinhvien
 CREATE TABLE IF NOT EXISTS `sinhvien` (
@@ -42,7 +46,10 @@ CREATE TABLE IF NOT EXISTS `sinhvien` (
   CONSTRAINT `fk_khoa_sv` FOREIGN KEY (`makh`) REFERENCES `khoa` (`makh`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
 
--- Data exporting was unselected.
+-- Dumping data for table qlsv.sinhvien: ~0 rows (approximately)
+INSERT INTO `sinhvien` (`masv`, `hosv`, `tensv`, `ngaysinh`, `phai`, `makh`, `hocbong`) VALUES
+	('A01', 'Cao Thanh', 'Hương', '2001-10-05', 1, 'AV', 120000),
+	('A02', 'Lê Đình', 'Thắng', '2001-09-09', 0, 'VL', 100000);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
