@@ -37,7 +37,7 @@ public class FrmManHinhThem extends JFrame {
 	private JTextField txtTen;
 	private JTextField txtDtdd;
 	private JTextField txtHinhanh;
-
+	private JLabel lblHinhAnh;
 	/**
 	 * Launch the application.
 	 */
@@ -101,7 +101,7 @@ public class FrmManHinhThem extends JFrame {
 		txtHinhanh.setBounds(170, 154, 305, 31);
 		contentPane.add(txtHinhanh);
 
-		JLabel lblHinhAnh = new JLabel("");
+		 lblHinhAnh = new JLabel("");
 		lblHinhAnh.setBounds(593, 31, 180, 215);
 		contentPane.add(lblHinhAnh);
 
@@ -180,7 +180,7 @@ public class FrmManHinhThem extends JFrame {
 			stransformer.transform(source, result);
 
 			JOptionPane.showMessageDialog(contentPane, "Đã thêm liên hệ");
-		} catch (ParserConfigurationException | TransformerException e) {
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			System.out.println(e.getMessage());
 			JOptionPane.showMessageDialog(contentPane, "Không thể thêm liên hệ");

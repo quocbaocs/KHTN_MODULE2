@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<don_vi>
+	<nhan_vien>
+		<id>1</id>
+		<ho_ten>Phí Quyết Nguyên</ho_ten>
+		<gioi_tinh>Nam</gioi_tinh>
+		<ngay_sinh>1973-08-31</ngay_sinh>
+		<muc_luong>5200000</muc_luong>
+		<dia_chi>424 C Phường 4- Quận 10- Tỉnh/Tp CC</dia_chi>
+		<id_don_vi>1</id_don_vi>
+	</nhan_vien>
+	<nhan_vien>
+		<id>2</id>
+		<ho_ten>Đỗ Sơn Thụy Trang</ho_ten>
+		<gioi_tinh>Nữ</gioi_tinh>
+		<ngay_sinh>1973-08-31</ngay_sinh>
+		<muc_luong>5200000</muc_luong>
+		<dia_chi>424 C Phường 4- Quận 10- Tỉnh/Tp CC</dia_chi>
+		<id_don_vi>1</id_don_vi>
+	</nhan_vien>
+</don_vi>
