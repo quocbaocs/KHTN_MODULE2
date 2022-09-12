@@ -37,3 +37,8 @@
 	-Use Statement , tạo ra một chuỗi dài
 	-User prepareStatement , sử dụng ? thêm tham số vào
 	
+# Kiến trúc 3 lớp( Three-layer arcitecture)
+
+		 				Đối tượng chứa và truyền dữ liệu
+	*-><-	Trình bày---------------><--------------- Xử lý -><- truy cập dữ liệu -><- database
+	
