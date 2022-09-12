@@ -28,12 +28,11 @@ public class TestConnect extends CSDL {
 
 	@Test
 	public void testConnection() {
-		
 		Connection conn = CSDL.connect();
 		assertNotNull(conn);
 	}
 	@Test
-	public void testThem() {
+	public void testTimSach() {
 		Sach s = new Sach(null, null, null, 50000.0);
 		QLCSDL dl = new QLCSDL();
 		List<Sach> list = dl.dsSach("Online");
