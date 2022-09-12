@@ -81,7 +81,7 @@ public class FrmBT5_2 extends JFrame {
 					String url = "jdbc:mysql://localhost:3306/qllienhe?useUnicode=true&characterEncoding=UTF-8";
 
 					// buoc 3: tao ket noi
-					Connection ketNoi = DriverManager.getConnection(url, "root", "");
+					Connection ketNoi = DriverManager.getConnection(url, "root", "quocbao@123");
 
 					// buoc 4: tao phat bieu
 //					C1
