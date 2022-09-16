@@ -1,5 +1,6 @@
 package thucHanh;
 
+import java.util.Enumeration;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
@@ -14,6 +15,7 @@ public class Vd4 {
 
 		rsBundle = ResourceBundle.getBundle("thucHanh.tudien", lcUS);
 		System.out.println("s2 = " + rsBundle.getString("s2"));
+		
 
 	}
 
