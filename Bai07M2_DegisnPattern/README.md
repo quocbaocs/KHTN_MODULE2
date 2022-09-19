@@ -6,6 +6,12 @@
 	
 ## Strategy
 	
+## SingleTon 
+	Tạo ra một đối tượng duy nhất
+	- Không tạo đối tượng mới thì không được new 
+	- Tạo ra nhiều đối tượng cũng cùng mục đích, không cần thiết phải tạo nhiều, 
+
+## Factory
 
 
 	
