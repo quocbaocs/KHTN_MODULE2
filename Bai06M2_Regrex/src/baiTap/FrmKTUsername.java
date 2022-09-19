@@ -1,21 +1,21 @@
 package baiTap;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import javax.swing.JLabel;
-import javax.swing.JButton;
-import javax.swing.JTextField;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.awt.event.ActionEvent;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.border.EmptyBorder;
 
 public class FrmKTUsername extends JFrame {
 
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTextField txtMauDinhDang;
 	private JTextField txtUserName;
@@ -42,18 +42,18 @@ public class FrmKTUsername extends JFrame {
 	 */
 	public FrmKTUsername() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 477, 300);
+		setBounds(100, 100, 574, 300);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 
 		JLabel lblNewLabel = new JLabel("Mẫu định dạng Username");
-		lblNewLabel.setBounds(10, 27, 127, 24);
+		lblNewLabel.setBounds(10, 27, 181, 24);
 		contentPane.add(lblNewLabel);
 
 		JLabel lblUsernameKimTra = new JLabel("Username kiểm tra");
-		lblUsernameKimTra.setBounds(10, 73, 127, 24);
+		lblUsernameKimTra.setBounds(10, 73, 181, 24);
 		contentPane.add(lblUsernameKimTra);
 
 		JButton btnKiemTra = new JButton("Kiểm tra");
@@ -64,27 +64,27 @@ public class FrmKTUsername extends JFrame {
 				txtKetQua.setText(KiemTra(reprex, username));
 			}
 		});
-		btnKiemTra.setBounds(187, 125, 89, 23);
+		btnKiemTra.setBounds(187, 125, 127, 23);
 		contentPane.add(btnKiemTra);
 
 		txtMauDinhDang = new JTextField();
-		txtMauDinhDang.setBounds(186, 29, 265, 20);
+		txtMauDinhDang.setBounds(231, 28, 265, 24);
 		contentPane.add(txtMauDinhDang);
 		txtMauDinhDang.setColumns(10);
 
 		txtUserName = new JTextField();
 		txtUserName.setColumns(10);
-		txtUserName.setBounds(186, 75, 265, 20);
+		txtUserName.setBounds(231, 72, 265, 25);
 		contentPane.add(txtUserName);
 
 		txtKetQua = new JTextField();
 		txtKetQua.setColumns(10);
-		txtKetQua.setBounds(186, 180, 265, 20);
+		txtKetQua.setBounds(231, 181, 265, 20);
 		txtKetQua.setEditable(false);
 		contentPane.add(txtKetQua);
 
 		JLabel lblKtQua = new JLabel("Kết quả");
-		lblKtQua.setBounds(10, 178, 127, 24);
+		lblKtQua.setBounds(64, 178, 127, 24);
 		contentPane.add(lblKtQua);
 	}
 
