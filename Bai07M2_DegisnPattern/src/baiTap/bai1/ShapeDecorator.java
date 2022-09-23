@@ -1,6 +1,6 @@
-package baiTap;
+package baiTap.bai1;
 
-public class ShapeDecorator implements Shape {
+public abstract class ShapeDecorator implements Shape {
 	protected Shape shape;
 
 	public ShapeDecorator(Shape shape) {
