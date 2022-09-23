@@ -75,7 +75,7 @@ public class FrmDangNhap extends JInternalFrame {
 				if(nd!=null) {
 					JOptionPane.showMessageDialog(rootPane, "Đăng nhập thành công");
 				}else {
-					JOptionPane.showMessageDialog(rootPane, "Email và pasword sai");
+					JOptionPane.showMessageDialog(rootPane, "Email hoặc mật khẩu sai");
 				}
 			}
 		});
