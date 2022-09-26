@@ -74,6 +74,7 @@ public class FrmDangNhap extends JInternalFrame {
 				NguoiDung nd = NguoiDungBL.timEmailPassword(email, password);
 				if(nd!=null) {
 					JOptionPane.showMessageDialog(rootPane, "Đăng nhập thành công");
+					dispose();
 				}else {
 					JOptionPane.showMessageDialog(rootPane, "Email hoặc mật khẩu sai");
 				}
