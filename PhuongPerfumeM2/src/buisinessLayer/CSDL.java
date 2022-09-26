@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 
 public class CSDL {
 	private static Connection ketNoi;
-	private static String url = "jdbc:mysql://localhost:3306/phuong_perfume";
+	private static String url = "jdbc:mysql://localhost:3306/phuong_perfume?useSSL=true";
 	private static String user = "root";
 	private static String password = "";
 
