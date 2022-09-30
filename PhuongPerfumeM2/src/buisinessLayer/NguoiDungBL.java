@@ -8,7 +8,6 @@ import dataTransferObject.NguoiDung;
 
 public class NguoiDungBL {
 
-	// TODO Auto-generated constructor stub
 
 	public static NguoiDung timEmailPassword(String email, String password) {
 		NguoiDung nd = null;
@@ -35,7 +34,7 @@ public class NguoiDungBL {
 	}
 
 	public static void main(String[] args) {
-		NguoiDung nd = timEmailPassword(null, null);
+		NguoiDung nd = timEmailPassword("thanhthanh@gmail.com", "thanhthanh");
 		if (nd != null) {
 			System.out.println("Có " + nd.getHoTen());
 		} else {

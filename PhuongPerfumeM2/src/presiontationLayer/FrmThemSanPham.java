@@ -80,7 +80,7 @@ public class FrmThemSanPham extends JInternalFrame {
 		getContentPane().setLayout(null);
 
 		JLabel lblNewLabel = new JLabel("Tên sản phẩm");
-		lblNewLabel.setBounds(23, 11, 90, 23);
+		lblNewLabel.setBounds(23, 11, 118, 23);
 		getContentPane().add(lblNewLabel);
 
 		JLabel lblMT = new JLabel("Mô tả");
@@ -88,7 +88,7 @@ public class FrmThemSanPham extends JInternalFrame {
 		getContentPane().add(lblMT);
 
 		JScrollPane scrollPane = new JScrollPane();
-		scrollPane.setBounds(98, 45, 241, 112);
+		scrollPane.setBounds(131, 45, 216, 112);
 		getContentPane().add(scrollPane);
 
 		JTextArea txtaMoTa = new JTextArea();
@@ -99,7 +99,7 @@ public class FrmThemSanPham extends JInternalFrame {
 		getContentPane().add(lblNewLabel_1_1);
 
 		JLabel lblNewLabel_1_2 = new JLabel("Đơn giá");
-		lblNewLabel_1_2.setBounds(23, 206, 90, 23);
+		lblNewLabel_1_2.setBounds(23, 208, 106, 23);
 		getContentPane().add(lblNewLabel_1_2);
 
 		JLabel lblNewLabel_1_2_1 = new JLabel("Đơn giá KM");
@@ -107,7 +107,7 @@ public class FrmThemSanPham extends JInternalFrame {
 		getContentPane().add(lblNewLabel_1_2_1);
 
 		JLabel lblNewLabel_1_2_2 = new JLabel("Số lượng");
-		lblNewLabel_1_2_2.setBounds(23, 284, 90, 23);
+		lblNewLabel_1_2_2.setBounds(23, 283, 106, 23);
 		getContentPane().add(lblNewLabel_1_2_2);
 
 		JLabel lblNewLabel_1_2_3 = new JLabel("Loại");
@@ -115,11 +115,11 @@ public class FrmThemSanPham extends JInternalFrame {
 		getContentPane().add(lblNewLabel_1_2_3);
 
 		cbbLoai = new JComboBox();
-		cbbLoai.setBounds(98, 318, 103, 22);
+		cbbLoai.setBounds(131, 318, 118, 22);
 		getContentPane().add(cbbLoai);
 
 		cbbThuongHieu = new JComboBox();
-		cbbThuongHieu.setBounds(98, 352, 103, 22);
+		cbbThuongHieu.setBounds(131, 352, 118, 22);
 		getContentPane().add(cbbThuongHieu);
 
 		JLabel lblNewLabel_1_2_3_1 = new JLabel("Thương Hiệu");
@@ -160,32 +160,36 @@ public class FrmThemSanPham extends JInternalFrame {
 		getContentPane().add(btnThem);
 
 		JButton btnTiepTuc = new JButton("Tiếp tục");
-		btnTiepTuc.setBounds(243, 398, 89, 23);
+		btnTiepTuc.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+		btnTiepTuc.setBounds(243, 398, 104, 23);
 		getContentPane().add(btnTiepTuc);
 
 		txtHinhAnh = new JTextField();
-		txtHinhAnh.setBounds(98, 168, 216, 20);
+		txtHinhAnh.setBounds(131, 168, 183, 20);
 		getContentPane().add(txtHinhAnh);
 		txtHinhAnh.setColumns(10);
 
 		txtDonGia = new JTextField();
 		txtDonGia.setColumns(10);
-		txtDonGia.setBounds(98, 200, 108, 20);
+		txtDonGia.setBounds(131, 210, 118, 20);
 		getContentPane().add(txtDonGia);
 
 		txtDonGiaKM = new JTextField();
 		txtDonGiaKM.setColumns(10);
-		txtDonGiaKM.setBounds(98, 240, 103, 20);
+		txtDonGiaKM.setBounds(131, 245, 118, 21);
 		getContentPane().add(txtDonGiaKM);
 
 		txtSoLuong = new JTextField();
 		txtSoLuong.setColumns(10);
-		txtSoLuong.setBounds(98, 285, 103, 20);
+		txtSoLuong.setBounds(131, 286, 118, 20);
 		getContentPane().add(txtSoLuong);
 
 		txtTenSP = new JTextField();
 		txtTenSP.setColumns(10);
-		txtTenSP.setBounds(98, 12, 216, 20);
+		txtTenSP.setBounds(131, 13, 216, 20);
 		getContentPane().add(txtTenSP);
 
 		JButton btnChon = new JButton("New button");
@@ -213,7 +217,7 @@ public class FrmThemSanPham extends JInternalFrame {
 		getContentPane().add(btnChon);
 
 		lblHinhAnh = new JLabel("");
-		lblHinhAnh.setBounds(246, 210, 156, 164);
+		lblHinhAnh.setBounds(272, 210, 156, 164);
 		getContentPane().add(lblHinhAnh);
 
 	}
